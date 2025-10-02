@@ -1,0 +1,6 @@
+# Ignore build artifacts
+*.tar.gz
+*.deb
+*.rpm
+*.log
+*.swp
