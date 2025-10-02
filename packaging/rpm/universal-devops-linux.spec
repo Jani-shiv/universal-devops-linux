@@ -10,7 +10,7 @@ BuildRequires:  rpm-build
 Requires:       git, jq, curl, wget, htop
 
 %description
-Meta package installs essential DevOps tools on RHEL/Fedora family systems.
+Meta package installs essential DevOps tools on RHEL/Fedora systems.
 
 %prep
 %setup -q

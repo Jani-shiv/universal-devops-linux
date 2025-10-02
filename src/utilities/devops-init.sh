@@ -3,7 +3,7 @@ echo "🚀 Universal DevOps Linux setup starting..."
 for pkg in git jq curl wget htop; do
     if ! command -v $pkg &> /dev/null; then
         echo "Installing $pkg..."
-        sudo dnf install -y $pkg || sudo apt install -y $pkg
+        sudo dnf install -y $pkg
     else
         echo "$pkg already installed ✅"
     fi
