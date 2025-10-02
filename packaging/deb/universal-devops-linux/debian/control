@@ -1,0 +1,12 @@
+Source: universal-devops-linux
+Section: utils
+Priority: optional
+Maintainer: Jani <you@example.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper (>= 11)
+
+Package: universal-devops-linux
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, git, jq, curl, wget, htop
+Description: DevOps-ready meta package for Debian-based systems
+ Provides a curated set of DevOps tools and setup scripts.
