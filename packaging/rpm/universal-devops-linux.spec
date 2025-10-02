@@ -1,7 +1,7 @@
 Name:           universal-devops-linux
 Version:        0.1.0
 Release:        1%{?dist}
-Summary:        DevOps-ready meta package for RPM-based systems
+Summary:        DevOps-ready meta package
 License:        MIT
 URL:            https://github.com/Jani-shiv/universal-devops-linux
 Source0:        %{name}-%{version}.tar.gz
@@ -10,7 +10,7 @@ BuildRequires:  rpm-build
 Requires:       git, jq, curl, wget, htop
 
 %description
-Meta package that installs essential DevOps tools on RHEL/Fedora family systems.
+Meta package installs essential DevOps tools on RHEL/Fedora family systems.
 
 %prep
 %setup -q
